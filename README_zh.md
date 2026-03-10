@@ -68,6 +68,22 @@ cd openclaw-clone
 6. 运行 `openclaw doctor` 修复配置（推荐）
 7. 启动 Gateway 并验证
 
+### 验证安装
+
+迁移完成后（或任何时候），验证您的 OpenClaw 安装：
+
+```bash
+./verify.sh
+```
+
+验证脚本检查：
+- OpenClaw CLI 是否已安装
+- 配置文件是否存在
+- 工作区文件（SOUL.md, USER.md, MEMORY.md）
+- Gateway 状态
+- 数据大小
+- 定时任务
+
 ## 模块详解
 
 ### ✅ config (openclaw.json)

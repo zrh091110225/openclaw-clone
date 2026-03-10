@@ -68,6 +68,22 @@ The restore script will:
 6. Run `openclaw doctor` to fix configuration (recommended)
 7. Start the gateway and verify
 
+### Verify Installation
+
+After migration (or anytime), verify your OpenClaw installation:
+
+```bash
+./verify.sh
+```
+
+The verify script checks:
+- OpenClaw CLI is installed
+- Configuration files exist
+- Workspace files (SOUL.md, USER.md, MEMORY.md)
+- Gateway status
+- Data size
+- Cron jobs
+
 ## Module Details
 
 ### ✅ config (openclaw.json)
